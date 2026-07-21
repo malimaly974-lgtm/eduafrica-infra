@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://github.com/frappe/erpnext",
+    "branch": "version-16"
+  },
+  {
+    "url": "https://github.com/frappe/education",
+    "branch": "version-16"
+  },
+  {
+    "url": "https://github.com/malimaly974-lgtm/edu_core",
+    "branch": "main"
+  }
+]
