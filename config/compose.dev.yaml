@@ -1,0 +1,16 @@
+services:
+  backend:
+    volumes:
+      - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
+  websocket:
+    volumes:
+      - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
+  queue-short:
+    volumes:
+      - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
+  queue-long:
+    volumes:
+      - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
+  scheduler:
+    volumes:
+      - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
