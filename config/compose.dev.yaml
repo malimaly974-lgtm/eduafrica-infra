@@ -14,3 +14,6 @@ services:
   scheduler:
     volumes:
       - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
+  frontend:
+    ports: !override
+      - "127.0.0.1:8080:8080"
