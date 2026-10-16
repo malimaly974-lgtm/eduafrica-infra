@@ -1,5 +1,8 @@
 services:
   backend:
+    environment:
+      # DEV UNIQUEMENT : autorise OAuth2 en HTTP. Jamais en production (HTTPS obligatoire).
+      OAUTHLIB_INSECURE_TRANSPORT: "1"
     volumes:
       - ${EDU_CORE_PATH}:/home/frappe/frappe-bench/apps/edu_core
   websocket:
